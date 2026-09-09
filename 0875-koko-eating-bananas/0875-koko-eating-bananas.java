@@ -14,7 +14,7 @@ class Solution {
 
             int mid = low + (high - low) / 2;
 
-            long hours = 0;   // IMPORTANT: use long
+            long hours = 0;   
 
             for (int pile : piles) {
                 hours += (pile + mid - 1) / mid;

@@ -7,9 +7,9 @@ class Solution {
             if(nums[mid]==target){
                 return mid;
             }else if(nums[mid]>target){
-                right=right-1;
+                right=mid-1;
             }else{
-                left=left+1;
+                left=mid+1;
             }
         }
         return left;

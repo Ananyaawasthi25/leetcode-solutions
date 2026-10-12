@@ -15,7 +15,9 @@ class Solution {
                      }
                      
         }
-        return  min == Integer.MAX_VALUE ? 0 : min;
-        
+       if(min==Integer.MAX_VALUE){
+        return 0;
+       } 
+       return min;   
     }
 }
